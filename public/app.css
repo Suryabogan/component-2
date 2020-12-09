@@ -1,0 +1,26 @@
+.mainWrapper {
+    max-width: 90%;
+    margin: auto;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+}
+.col-3{
+    max-width: 33.33%;
+    padding: 1px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.addForm{
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+}
+.addForm input, select {
+    margin: 10px 0px;
+}
